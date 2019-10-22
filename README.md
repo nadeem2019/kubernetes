@@ -1,8 +1,8 @@
 This code could be used to launch an Ubuntu Kubernetes cluster with Single control plane (1 Master) and 3 Nodes on Google cloud platform. You have to run this from a Linux machine with gcloud installed, or on the Google cloud shell
 
-```git clone git@github.com:networkandcode/tech.git```
+```git clone git@github.com:nadeem2019/kubernetes.git```
 or
-```git clone https://github.com/networkandcode/tech.git```
+```git clone https://github.com/nadeem2019/kubernetes.git```
 
 please set the project using gcloud
 ```
@@ -12,7 +12,7 @@ you may check the list of available projects using ```gcloud projects list```
 you may also create a new project if required using ```gcloud projects create <project-id>```
 
 ```
-cd tech/kubernetes/cka/install/kubeadm
+cd kubernete
 ./launch.sh
 --TRUNCATED--
 Run 'kubectl get nodes' on the control-plane to see this node join the cluster.
